@@ -1,201 +1,285 @@
+
 html {
-scroll-behavior: smooth;
-scroll-padding-top: 90px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
 }
 
 body {
-margin: 0;
-padding: 0 20px 60px 20px;
-font-family: 'Courier New', Courier, monospace;
-background: linear-gradient(180deg, #1a0b2e 0%, #2a0845 50%, #0d021f 100%);
-color: #e0e0e0;
-background-attachment: fixed;
+    margin: 0;
+    padding: 0 20px 60px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(180deg, #1a0b2e 0%, #2a0845 50%, #0d021f 100%);
+    color: #e0e0e0;
+    background-attachment: fixed;
 }
 
-/* ---  NAV BAR --- */
+/* --- NAV BAR --- */
 nav {
-position: sticky;
-top: 0;
-background: rgba(18, 4, 31, 0.95);
-border: 2px solid #ff007f;
-border-radius: 8px;
-box-shadow: 0 0 15px #ff007f;
-z-index: 1000;
-padding: 10px;
-margin-bottom: 40px;
+    position: sticky;
+    top: 0;
+    background: rgba(18, 4, 31, 0.95);
+    border: 2px solid #ff007f;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #ff007f;
+    z-index: 1000;
+    padding: 10px;
+    margin-bottom: 40px;
 }
 
 nav ul {
-list-style: none;
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-margin: 0;
-padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
-margin: 5px 15px;
+    margin: 5px 15px;
 }
 
 nav a {
-color: #00ffff;
-text-decoration: none;
-font-weight: bold;
-text-transform: uppercase;
-font-size: 0.85rem;
-letter-spacing: 2px;
-text-shadow: 0 0 5px #00ffff;
-transition: 0.3s ease;
+    color: #00ffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    text-shadow: 0 0 5px #00ffff;
+    transition: 0.3s ease;
 }
 
 nav a:hover {
-color: #ff007f;
-text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f;
+    color: #ff007f;
+    text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f;
 }
 
 /* --- HEADER --- */
 #home {
-text-align: center;
-padding: 40px 0;
+    text-align: center;
+    padding: 40px 0;
 }
 
 #home h1 {
-color: #fff;
-font-size: 2.8rem;
-text-transform: uppercase;
-letter-spacing: 4px;
-text-shadow: 0 0 10px #fff, 0 0 20px #ff007f, 0 0 40px #ff007f;
-margin-bottom: 10px;
+    color: #fff;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #ff007f, 0 0 40px #ff007f;
+    margin-bottom: 10px;
 }
 
 #home p {
-color: #00ffff;
-font-size: 1.1rem;
-letter-spacing: 2px;
-text-shadow: 0 0 5px #00ffff;
+    color: #00ffff;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    text-shadow: 0 0 5px #00ffff;
 }
 
 /* --- CONTENTS / SECTIONS --- */
 section {
-max-width: 800px;
-margin: 30px auto;
-padding: 30px;
-background: rgba(26, 11, 46, 0.85);
-border: 2px solid #ff007f;
-border-radius: 10px;
-box-shadow: 0 0 20px rgba(255, 0, 127, 0.3), inset 0 0 15px rgba(0, 255, 255, 0.1);
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background: rgba(26, 11, 46, 0.85);
+    border: 2px solid #ff007f;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 0, 127, 0.3), inset 0 0 15px rgba(0, 255, 255, 0.1);
 }
 
 section h2 {
-color: #00ffff;
-font-size: 1.6rem;
-text-transform: uppercase;
-letter-spacing: 2px;
-text-shadow: 0 0 8px #00ffff;
-border-bottom: 1px dashed #ff007f;
-padding-bottom: 8px;
-margin-top: 0;
+    color: #00ffff;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 8px #00ffff;
+    border-bottom: 1px dashed #ff007f;
+    padding-bottom: 8px;
+    margin-top: 0;
 }
 
 section p, section li {
-font-size: 1rem;
-line-height: 1.6;
-color: #d1c4e9;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #d1c4e9;
 }
 
 section ul {
-padding-left: 20px;
+    padding-left: 20px;
 }
 
 section li {
-margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
-/* --- PREVENTION GUIDES  --- */
+/* --- PREVENTION GUIDES --- */
 #prevention h1 {
-color: #fff;
-font-size: 1.8rem;
-text-align: center;
-text-shadow: 0 0 10px #00ffff;
-margin-top: 0;
-margin-bottom: 25px;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    text-shadow: 0 0 10px #00ffff;
+    margin-top: 0;
+    margin-bottom: 25px;
 }
 
 #prevention h2 {
-font-size: 1.1rem;
-color: #ff007f;
-text-shadow: 0 0 6px #ff007f;
-border-bottom: none;
-margin-top: 20px;
-margin-bottom: 5px;
+    font-size: 1.1rem;
+    color: #ff007f;
+    text-shadow: 0 0 6px #ff007f;
+    border-bottom: none;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 #prevention p {
-margin-top: 0;
-margin-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 strong {
-color: #fff;
-text-shadow: 0 0 5px #fff;
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
 }
 
+/* --- AVATARS --- */
 .pixel-avatar {
-width: 80px;
-height: 80px;
-image-rendering: -moz-crisp-edges;
-image-rendering: -webkit-optimize-contrast;
-image-rendering: crisp-edges;
-image-rendering: pixelated;
-border: 3px solid #00ffff;
-border-radius: 8px;
-box-shadow: 0 0 15px #00ffff;
-background-color: #000000;
-object-fit: cover;
+    width: 80px;
+    height: 80px;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    border: 3px solid #00ffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #00ffff;
+    background-color: #000000;
+    object-fit: cover;
 }
 
 .nav-avatars {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 20px;
-margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 16px;
 }
 
 .creators-title {
-display: block;
-font-size: 1.1rem;
-letter-spacing: 4px;
-color: #ff007f;
-text-shadow: 0 0 8px #ff007f;
-margin-bottom: 10px;
-font-weight: bold;
+    display: block;
+    font-size: 1.1rem;
+    letter-spacing: 4px;
+    color: #ff007f;
+    text-shadow: 0 0 8px #ff007f;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .creator-name {
-font-size: 1.1rem;
-padding: 8px 18px;
-font-weight: bold;
-color: #ffffff;
-text-shadow: 0 0 8px #00ffff;
-background-color: rgba(0, 255, 255, 0.15);
-border: 2px solid #00ffff;
-border-radius: 6px;
-box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    font-size: 1.1rem;
+    padding: 8px 18px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 0 8px #00ffff;
+    background-color: rgba(0, 255, 255, 0.15);
+    border: 2px solid #00ffff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
 }
 
 .names-list {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 16px;
-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
 .website-creators {
-text-align: center;
-margin-bottom: 18px;
-padding-bottom: 14px;
-border-bottom: 2px dashed rgba(255, 0, 127, 0.5);
+    text-align: center;
+    margin-bottom: 18px;
+    padding-bottom: 14px;
+    border-bottom: 2px dashed rgba(255, 0, 127, 0.5);
+}
+
+/* --- PASSWORD SECURITY PAGE --- */
+.password-checker {
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.password-checker h2 {
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+}
+
+.password-checker h3 {
+    color: #ff007f;
+    margin-top: 30px;
+    text-shadow: 0 0 6px #ff007f;
+}
+
+.password-checker p {
+    color: #d1c4e9;
+    line-height: 1.7;
+}
+
+.password-checker input {
+    width: 80%;
+    padding: 14px;
+    margin: 15px 0;
+    border: 2px solid #ff007f;
+    border-radius: 8px;
+    background: #160629;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(255, 0, 127, 0.3);
+    box-sizing: border-box;
+}
+
+.password-checker input:focus {
+    outline: none;
+    border-color: #00ffff;
+    box-shadow: 0 0 10px #00ffff;
+}
+
+.password-checker input::placeholder {
+    color: #a99abf;
+}
+
+.requirements {
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+    color: #d1c4e9;
+}
+
+.password-example {
+    background: rgba(20, 5, 45, 0.8);
+    border: 2px solid #ff007f;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    box-shadow: 0 0 12px rgba(255, 0, 127, 0.3);
+}
+
+.password-example strong {
+    color: #00ffff;
+}
+
+.password-checker .reminder {
+    color: #00ffff;
+    border-top: 1px solid #ff007f;
+    padding-top: 20px;
+    margin-top: 25px;
+}
+
+/* --- FOOTER --- */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #00ffff;
+    font-size: 0.85rem;
 }
